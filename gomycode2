@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1> Mes informations</h1>
+        <form> 
+            <label>Nom:</label> 
+            <input type="text"  name="prénom"  placeholder="Tapez votre nom ici"  /> 
+            <br>
+            <label>Numéro:</label> 
+            <input type="number"  name="number"  placeholder="Tapez votre num ici"  /> 
+            <br>
+            Date de naissance:</label>
+            <input type="date"  name="birthday"  /> 
+            <br>
+            Mot de passe:</label> 
+            <input type="password"  name="password" /> 
+            <input type="submit"  value="Submit"  /> 
+          </form> 
+    </section>
+</body>
+</html>

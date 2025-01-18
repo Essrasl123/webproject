@@ -1,0 +1,135 @@
+* Style de base pour le corps */
+body {
+    background: linear-gradient(to right, #ffb3b3, #f4d8d8, #f5e0e0); /* Dégradé de rose clair, rose poudré, blanc cassé */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: #ff3366; /* Rouge rose */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5em;
+    color: #f7e5e5; /* Blanc cassé pour le texte */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 0;
+}
+
+/* Menu de navigation */
+nav {
+    background-color: #ffb3b3; /* Rose doux */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ff3366; /* Rose foncé */
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d83b60; /* Rouge rose au survol */
+}
+
+/* Section principale */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #d83b60; /* Rouge rose */
+    margin-bottom: 20px;
+}
+
+article {
+    background-color: #f7e5e5; /* Rose poudré */
+    border: 1px solid #f1d1d1; /* Bordure blanche cassée */
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+article:hover {
+    transform: translateY(-10px); /* Effet d'élévation au survol */
+}
+
+article h3 {
+    color: #ff3366; /* Rose vif */
+}
+
+article p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+a {
+    color: #ff3366;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+a:hover {
+    color: #d83b60;
+}
+
+/* Section vidéo */
+section iframe {
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* Pied de page */
+footer {
+    background-color: #ff3366; /* Rouge rose */
+    color: #f7e5e5; /* Blanc cassé */
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+
+
+footer {
+    background-color: #ff3366;
+    color: #f7e5e5; /
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}

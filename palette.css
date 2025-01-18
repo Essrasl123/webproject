@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Fond noir profond */
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header avec une bande réduite */
+header {
+    background-color: #B76E79; /* Rose gold pour une touche glamour */
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    height: 200px; /* Bande réduite */
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+/* Lien retour à l'accueil */
+.back-link {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1rem;
+    color: white;
+}
+
+/* Section du produit */
+.product-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 20px;
+}
+
+.product-image {
+    max-width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-info {
+    max-width: 45%;
+    padding: 20px;
+    background-color: #000; /* Fond noir pour contraster */
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.product-info h2 {
+    font-size: 2rem;
+    color: #F3A683; /* Rose gold scintillant */
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1.1rem;
+    color: #f1f1f1;
+    margin-top: 10px;
+}
+
+.price {
+    font-size: 1.5rem;
+    color: #B76E79; /* Rose gold */
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.buy-now {
+    background-color: #B76E79; /* Rose gold */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buy-now:hover {
+    background-color: #985864; /* Couleur légèrement plus foncée au survol */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}

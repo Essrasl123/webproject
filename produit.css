@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Fond doux beige clair */
+    color: #333; /* Texte sombre mais lisible */
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+header {
+    background-color: #f2d1d1; /* Rose pastel pour l'en-tête */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #8e3b46; /* Rose plus foncé */
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #8e3b46;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #d0819b; /* Couleur rose clair au survol */
+}
+
+/* Section principale */
+main {
+    padding: 40px 20px;
+    background-color: #ffffff; /* Fond blanc pour la section principale */
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+/* Titre de la section principale */
+main h2 {
+    font-size: 2rem;
+    color: #d08498; /* Rose moyen pour les titres */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Description générale de la section */
+main p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Liste des produits */
+.product {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9d0d9; /* Fond rose pâle pour chaque produit */
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    text-align: center;
+}
+
+.product h3 {
+    font-size: 1.5rem;
+    color: #d08498; /* Rose moyen pour les titres des produits */
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 1rem;
+    color: #777;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.product a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f18f9a; /* Rose clair pour le bouton */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.product a:hover {
+    background-color: #d08498; /* Changement de couleur au survol */
+}
+
+footer {
+    background-color: #f2d1d1; /* Rose pastel pour le pied de page */
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    color: #8e3b46;
+    font-size: 1rem;
+    margin: 0; 
+}

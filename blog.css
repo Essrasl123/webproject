@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Fond doux beige clair */
+    color: #333; /* Texte sombre mais lisible */
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+header {
+    background-color: #f2d1d1; /* Rose pastel pour l'en-tête */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #8e3b46; /* Rose plus foncé */
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #8e3b46;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #d0819b; /* Couleur rose clair au survol */
+}
+}
+
+/* Section principale */
+main {
+    padding: 40px 20px;
+    background-color: #ffffff; /* Fond blanc pour la section principale */
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+/* Titre de la section principale */
+main h2 {
+    font-size: 2rem;
+    color: #d28b97; /* Rose moyen pour les titres */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Articles du blog */
+article {
+    background-color: #f1d2dc; /* Rose clair doux pour chaque article */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    text-align: center;
+}
+
+article h3 {
+    font-size: 1.8rem;
+    color: #d28b97; 
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 1rem;
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+article a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f4b6c3; /* Rose clair pour le bouton */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+article a:hover {
+    background-color: #d28b97; /* Rose moyen au survol */
+}
+
+footer {
+    background-color: #f1d2dc; /* Rose clair pour le pied de page */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    color: #d28b97; /* Rose moyen pour le texte */
+    font-size: 1rem;
+    margin: 0;
+}

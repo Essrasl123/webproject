@@ -1,0 +1,34 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Style de la barre de navigation */
+  .navbar {
+    background-color: #333;  /* Une couleur de fond pour la barre de navigation */
+    padding: 10px;  /* Un peu d'espace autour du contenu */
+  }
+  
+  /* Style pour la liste du menu */
+  .menu {
+    list-style-type: none;  /* Supprime les puces de la liste */
+    padding: 0;  /* Supprime le padding par défaut */
+    margin: 0;  /* Supprime la marge par défaut */
+  }
+  
+  /* Style pour chaque élément de la liste */
+  .menu li {
+    display: inline;  /* Les éléments de la liste s'affichent sur la même ligne */
+    margin-right: 20px;  /* Un peu d'espace entre les éléments du menu */
+  }
+  
+  /* Style pour les liens dans le menu */
+  .menu li a {
+    color: white;  /* Les liens seront blancs */
+    text-decoration: none;  /* Enlever le souligné par défaut */
+    font-size: 18px;  /* Taille de police pour les liens */
+  }
+  
+  /* Effet au survol des liens */
+  .menu li a:hover {
+    color: #ff9800;  /* La couleur des liens devient orange lorsqu'on survole */
+  }

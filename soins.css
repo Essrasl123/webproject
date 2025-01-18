@@ -1,0 +1,112 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Fond doux beige clair */
+    color: #333; /* Texte sombre mais lisible */
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+header {
+    background-color: #f2d1d1; /* Rose pastel pour l'en-tête */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #8e3b46; /* Rose plus foncé */
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #8e3b46;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #d0819b; /* Couleur rose clair au survol */
+}
+
+/* Section Soins de la peau */
+section#soins {
+    background-color: #ffffff; /* Fond blanc pour une lecture claire */
+    padding: 40px 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+section#soins h2 {
+    font-size: 2rem;
+    color: #8e3b46;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section#soins h3 {
+    font-size: 1.4rem;
+    color: #d0819b; /* Rose pastel */
+    margin-top: 20px;
+}
+
+section#soins p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555; /* Gris foncé pour une lecture facile */
+}
+
+section#soins ul {
+    padding-left: 20px;
+}
+
+section#soins ul li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+section#soins ul li strong {
+    color: #8e3b46; /* Rose foncé pour les points importants */
+}
+
+/* Lien */
+section#soins a {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #d0819b; /* Rose pastel */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+section#soins a:hover {
+    background-color: #8e3b46; /* Rose foncé au survol */
+}
+
+
+footer {
+    background-color: #f2d1d1; /* Rose pastel pour le pied de page */
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    color: #8e3b46;
+    font-size: 1rem;
+    margin: 0;
+}

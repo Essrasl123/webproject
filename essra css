@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    border: 2px solid rgba(253, 211, 218, 0.958);
+    border-radius: 10px;
+    color: rgba(189, 137, 237, 0.538);
+    background-color: rgba(255, 228, 196, 0.455);
+}
+header{
+    background-color
+}

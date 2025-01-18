@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+header {
+    background-color: #88C0D0;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+/* Section des conseils */
+.tips-section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tip {
+    margin-bottom: 20px;
+}
+
+.tip h3 {
+    font-size: 1.3rem;
+    color: #88C0D0;
+}
+
+.tip p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Section des produits */
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    flex: 1;
+}
+
+.product-image {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #88C0D0;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #88C0D0;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.buy-now {
+    background-color: #88C0D0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buy-now:hover {
+    background-color: #5D9FB4;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
